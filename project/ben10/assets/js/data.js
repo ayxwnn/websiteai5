@@ -1,0 +1,215 @@
+export const ALIENS = [
+  {
+    id: "heatblast",
+    name: "Heatblast",
+    species: "Pyronite",
+    homePlanet: "Pyros",
+    abilities: ["Fire manipulation", "Flight (limited)", "Heat resistance"],
+    summary:
+      "Heatblast channels volcanic plasma through a living magma body, letting him sculpt intense fireballs, launch jets of flame, and absorb extreme heat for healing. His fiery personality burns bright, but his impatience can spark collateral damage if he loses focus in combat.",
+    firstAppearance: "Season 1, Episode 1 — 'And Then There Were 10'",
+    img: "assets/img/heatblast.webp",
+    imgAlt: "Heatblast blazing with fire, standing in a molten landscape",
+    powerLevel: 8,
+    unlockedBy: "Original Omnitrix",
+  },
+  {
+    id: "xlr8",
+    name: "XLR8",
+    species: "Kineceleran",
+    homePlanet: "Kinet",
+    abilities: ["Supersonic speed", "Enhanced reflexes", "Friction manipulation"],
+    summary:
+      "XLR8 is a velociraptor-like sprinter who accelerates faster than sound, curving time with precise reflexes and a retractable energy visor. Agile and analytical, he solves problems mid-stride, though his momentum can outpace planning if Ben does not think before dashing in.",
+    firstAppearance: "Season 1, Episode 1 — 'And Then There Were 10'",
+    img: "assets/img/xlr8.webp",
+    imgAlt: "XLR8 sprinting with neon speed trails on a futuristic roadway",
+    powerLevel: 7,
+    unlockedBy: "Original Omnitrix",
+  },
+  {
+    id: "diamondhead",
+    name: "Diamondhead",
+    species: "Petrosapien",
+    homePlanet: "Petropia",
+    abilities: ["Crystal growth", "Refractive shields", "Blade morphing"],
+    summary:
+      "Diamondhead’s silicon body refracts energy like living armor, letting him forge weapons, walls, and precision prisms at will. Calm under pressure, he excels at both offense and defense, though sonic vibrations threaten to shatter his crystalline form if he overextends.",
+    firstAppearance: "Season 1, Episode 2 — 'Washington B.C.'",
+    img: "assets/img/diamondhead.webp",
+    imgAlt: "Diamondhead forming crystal blades under emerald lighting",
+    powerLevel: 9,
+    unlockedBy: "Original Omnitrix",
+  },
+  {
+    id: "four-arms",
+    name: "Four Arms",
+    species: "Tetramand",
+    homePlanet: "Khoros",
+    abilities: ["Super strength", "Shockwave claps", "High endurance"],
+    summary:
+      "Four Arms brings raw Tetramand strength tempered with honor. Massive muscles launch thunderous leaps and seismic punches, while his four arms deliver grappling versatility. His size can make stealth impossible, and cramped spaces limit his best moves.",
+    firstAppearance: "Season 1, Episode 1 — 'And Then There Were 10'",
+    img: "assets/img/four-arms.webp",
+    imgAlt: "Four Arms roaring mid-leap with fists raised in a city street",
+    powerLevel: 9,
+    unlockedBy: "Original Omnitrix",
+  },
+  {
+    id: "grey-matter",
+    name: "Grey Matter",
+    species: "Galvan",
+    homePlanet: "Galvan Prime",
+    abilities: ["Genius intellect", "Technopathy", "Wall crawling"],
+    summary:
+      "Grey Matter’s Galvan mind dissects complex systems in seconds, turning everyday tech into powerful tools. Tiny and agile, he infiltrates vents and circuitry with ease. Physical fragility keeps him vulnerable, so cleverness and stealth are his best defenses.",
+    firstAppearance: "Season 1, Episode 1 — 'And Then There Were 10'",
+    img: "assets/img/grey-matter.webp",
+    imgAlt: "Grey Matter perched on a circuit board examining glowing tech",
+    powerLevel: 4,
+    unlockedBy: "Original Omnitrix",
+  },
+  {
+    id: "upgrade",
+    name: "Upgrade",
+    species: "Galvanic Mechamorph",
+    homePlanet: "Galvan B",
+    abilities: ["Technomorphing", "Energy beams", "System hacking"],
+    summary:
+      "Upgrade is a liquid-metal technomorph who bonds with machines, overclocking their capabilities and firing luminous energy streams. Creative and curious, he loves reengineering gadgetry on the fly, but electromagnetic pulses can destabilize his structure mid-fusion.",
+    firstAppearance: "Season 1, Episode 1 — 'And Then There Were 10'",
+    img: "assets/img/upgrade.webp",
+    imgAlt: "Upgrade merged with a hoverboard blasting a neon energy beam",
+    powerLevel: 7,
+    unlockedBy: "Original Omnitrix",
+  },
+  {
+    id: "wildmutt",
+    name: "Wildmutt",
+    species: "Vulpimancer",
+    homePlanet: "Vulpin",
+    abilities: ["Enhanced senses", "Claw attacks", "Quadrupedal agility"],
+    summary:
+      "Wildmutt is a feral predator whose echolocation, scent tracking, and muscular leaps make him a nightmare ambusher. Without eyes, he relies on sensory quills to map surroundings, meaning sonic overloads or foul odors can disorient him at critical moments.",
+    firstAppearance: "Season 1, Episode 1 — 'And Then There Were 10'",
+    img: "assets/img/wildmutt.webp",
+    imgAlt: "Wildmutt crouched low, senses flaring in a misty alien jungle",
+    powerLevel: 6,
+    unlockedBy: "Original Omnitrix",
+  },
+  {
+    id: "ghostfreak",
+    name: "Ghostfreak",
+    species: "Ectonurite",
+    homePlanet: "Anur Phaetos",
+    abilities: ["Intangibility", "Invisibility", "Possession"],
+    summary:
+      "Ghostfreak manipulates shadows with chilling precision, phasing through matter, vanishing effortlessly, and even infiltrating minds. His sinister instincts push Ben toward darker choices, and sunlight weakens the ectoplasmic form if exposed for too long.",
+    firstAppearance: "Season 1, Episode 13 — 'Secrets'",
+    img: "assets/img/ghostfreak.webp",
+    imgAlt: "Ghostfreak emerging from shadows with translucent tendrils",
+    powerLevel: 8,
+    unlockedBy: "Original Omnitrix",
+  },
+  {
+    id: "ripjaws",
+    name: "Ripjaws",
+    species: "Piscciss Volann",
+    homePlanet: "Piscciss",
+    abilities: ["Aquatic adaptation", "Bioluminescent lure", "Powerful jaws"],
+    summary:
+      "Ripjaws combines anglerfish ferocity with mer-like speed, thriving in crushing depths thanks to bioluminescent camouflage and razor teeth. On land he risks dehydration, so strategic water access is vital whenever Ben chooses this aquatic powerhouse.",
+    firstAppearance: "Season 1, Episode 4 — 'Permanent Retirement'",
+    img: "assets/img/ripjaws.webp",
+    imgAlt: "Ripjaws swimming through dark water with a glowing lure",
+    powerLevel: 7,
+    unlockedBy: "Original Omnitrix",
+  },
+  {
+    id: "stinkfly",
+    name: "Stinkfly",
+    species: "Lepidopterran",
+    homePlanet: "Lepidopterra",
+    abilities: ["Flight", "Toxic sprays", "Acidic slime"],
+    summary:
+      "Stinkfly darts through the sky on four gossamer wings, launching noxious slime, sticky resin, and acidic darts to incapacitate foes. Agile aerial maneuvers keep him evasive, but fragile wings mean debris or cramped interiors can ground him fast.",
+    firstAppearance: "Season 1, Episode 1 — 'And Then There Were 10'",
+    img: "assets/img/stinkfly.webp",
+    imgAlt: "Stinkfly hovering mid-air, aiming venom blasts at unseen foes",
+    powerLevel: 6,
+    unlockedBy: "Original Omnitrix",
+  },
+];
+
+export const FEATURED_ALIEN_IDS = ["heatblast", "diamondhead", "xlr8"];
+
+export const TIMELINE = [
+  {
+    season: "Season 1",
+    year: 2005,
+    summary:
+      "Ben discovers the Omnitrix during a summer road trip, learning to balance heroics with childhood chaos.",
+    highlights: ["heatblast", "four-arms", "xlr8"],
+    milestones: [
+      {
+        title: "Omnitrix Crash Lands",
+        description: "Ben Tennyson stumbles upon the Omnitrix and unlocks his first alien heroes.",
+      },
+      {
+        title: "Vilgax Awakens",
+        description: "The intergalactic warlord begins hunting the Omnitrix for his own conquest.",
+      },
+    ],
+  },
+  {
+    season: "Season 2",
+    year: 2006,
+    summary:
+      "New threats push Ben to master alien transformations while Gwen and Grandpa Max uncover Plumber secrets.",
+    highlights: ["upgrade", "grey-matter", "wildmutt"],
+    milestones: [
+      {
+        title: "Kevin 11 Returns",
+        description: "Kevin absorbs alien DNA, forcing Ben to strategize beyond brute force.",
+      },
+      {
+        title: "Plumber Legacy",
+        description: "Max reveals his past, connecting the family to a wider galactic defense network.",
+      },
+    ],
+  },
+  {
+    season: "Season 3",
+    year: 2007,
+    summary:
+      "Ben grapples with fame, responsibility, and Omnitrix glitches while forming alliances across the galaxy.",
+    highlights: ["diamondhead", "ghostfreak", "stinkfly"],
+    milestones: [
+      {
+        title: "Ghostfreak's Rebellion",
+        description: "Ghostfreak breaks free, challenging Ben to face his own fears.",
+      },
+      {
+        title: "Galactic Allies",
+        description: "The Tennysons partner with Plumber allies to stop interstellar crises.",
+      },
+    ],
+  },
+  {
+    season: "Season 4",
+    year: 2008,
+    summary:
+      "The road trip culminates in high-stakes final battles as Ben learns the cost of wielding limitless power.",
+    highlights: ["ripjaws", "heatblast", "four-arms"],
+    milestones: [
+      {
+        title: "Final Showdown",
+        description: "Ben confronts Vilgax in a decisive clash for the Omnitrix.",
+      },
+      {
+        title: "Legacy Secured",
+        description: "The Tennyson family pledges to continue protecting Earth and beyond.",
+      },
+    ],
+  },
+];
